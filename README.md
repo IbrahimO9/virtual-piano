@@ -1,13 +1,22 @@
 # 🎹 Virtual Piano with Hand Tracking
 
-This project is a virtual piano that uses your webcam and hand tracking to play music by bending your fingers.
+This is a Python project that allows you to play virtual piano notes using your webcam and hand gestures. It uses **OpenCV** for video capture, **MediaPipe** for hand tracking, and **Pygame** for playing sounds.
 
-## 🔧 Technologies Used
-- Python
-- OpenCV
-- MediaPipe
-- Pygame
+## ✨ Features
+- Real-time hand detection using MediaPipe
+- Play notes by bending right-hand fingers
+- Switch between two sets of notes:
+  - ✋ Open left hand = Alternate notes
+  - ✊ Closed left fist = Original notes
+- Visual finger tracking with note labels
+
+## 🖥 Requirements
+- Python 3.x
+- Webcam
 
 ## 📦 Installation
-```bash
-pip install -r requirements.txt
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/IbrahimO9/virtual-piano.git
+   cd virtual-piano
